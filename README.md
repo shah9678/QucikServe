@@ -1,4 +1,3 @@
-# Final-Web-Dev-Project
 # Quickserve
 
 Quickserve is a web application that provides a platform for users to request and book instant, affordable services. The application allows users to sign up, log in, and access various services such as barber, snow removal, plumbing, mechanic, and carpentry.
@@ -42,42 +41,11 @@ As this is the first phase of discussion, we are offering services like child ca
 - Node.js
 - MongoDB
 
-## Iteration 1
-
 ### Screenshots 
 <img width="1225" alt="Screenshot 2024-08-02 at 5 44 07 PM" src="https://media.github.khoury.northeastern.edu/user/17308/files/9f000e04-796c-4fbf-a722-e94262be5f69">
 <img width="1216" alt="Screenshot 2024-08-02 at 5 44 14 PM" src="https://media.github.khoury.northeastern.edu/user/17308/files/cb65ebd0-55d1-4359-a7f9-5d2fbcb46c37">
 <img width="1225" alt="Screenshot 2024-08-02 at 5 44 23 PM" src="https://media.github.khoury.northeastern.edu/user/17308/files/7127b8c1-e7c5-4fa6-9445-6dbce26c8662">
 <img width="1212" alt="Screenshot 2024-08-02 at 5 44 33 PM" src="https://media.github.khoury.northeastern.edu/user/17308/files/b22fe654-1fea-4df3-86ca-36666368bf03">
-
-### Contributions
-### Team Members
-
-- Adit Shah : 
--             1.Frontend Codebase
--             2. Frontend Styling 
--             3. Frontend Layout and ideation 
--             4. React map component added in the background with markation of maximum sale in the cities
-
-- Shivam Thakker :
--                  1. Backend Database 
--                  2. Backend codebase 
--                  3. Api integration 
-
-### Challenges
-
-- Deployment issues with google cloud in frontend , images are not visible 
-- Backend deployment 
-
-### Future Work 
-
-- Adding functionalities for react components 
-- Adding details view at the end of checkout.
-
-
-## Iteration 2
-
-In Iteration 2, we focused on improving the user experience by adding new features and enhancing existing ones. This iteration includes:
 
 - **ContentView Page**: A new page where users can browse and select the services they want to book. After selecting a service, users are redirected to the DetailsView page.
 - **DetailsView Page**: Here, users can input their address and the expected amount they wish to pay for the service. Once entered, users are redirected to the summary and checkout page.
@@ -97,38 +65,6 @@ In Iteration 2, we focused on improving the user experience by adding new featur
 ![image](https://media.github.khoury.northeastern.edu/user/17467/files/78252ee1-c96a-4974-9e35-719c272d6b3f)
 
 
-
-### Contributions
-### Team Members
-
-- Adit Shah : 
--                  1. Frontend Codebase
--                  2. Frontend Styling 
--                  3. Frontend Layout and ideation 
--                  4. React map component added in the background with markation of maximum sale in the cities
-
-- Shivam Thakker :
--                  1. Backend Database 
--                  2. Backend codebase 
--                  3. Api integration
--                  4. Connection with Frontend 
--                  5. Frontend & Backend Deployment to Google Cloud
-
-### Challenges
-
-- Deployment issues with google cloud in Backend, Not found error 
-- Few errors in frontend deployment
-
-### Future Work 
-
-- Update the CSS
-- Complete the preliminary testing
-- Fix few minor error such as few fields are not marked as required and so it allows to go to the next page even if the form is incomplete
-
-
-## Iteration 3 / Final Phase Launch
-In Iteration 3 we fcused on using the react leaflet library or functionality for displaying the locations and reviews for the places where we provide services along with updation in the following:
-
 ### Checkout page
 Added the functionality of confirm and pay and a dialog box appearance for the confirmation.
 
@@ -138,26 +74,3 @@ Added the functionality of confirm and pay and a dialog box appearance for the c
 ![Screenshot 2024-08-14 at 6 54 17 PM](https://media.github.khoury.northeastern.edu/user/17308/files/77111919-af14-4c22-85cf-12904725ef19)
 ![Screenshot 2024-08-14 at 6 54 28 PM](https://media.github.khoury.northeastern.edu/user/17308/files/9b111888-ddd5-44e7-8f6c-ad189c39e394)
 
-### Contributions
-### Team Members
-
-- Adit Shah : 
--                  1. Frontend Codebase
--                  2. Frontend Styling 
--                  3. Frontend Layout and ideation 
--                  4. React map component added in the background with markation of location at cities we provide services for.
--                  5. Styling change and addition of more functionalities to checkout page for confimation.           
-- Shivam Thakker :
--                  1. Backend Database 
--                  2. Backend codebase 
--                  3. Api integration
--                  4. Connection with Frontend 
--                  5. Frontend & Backend Deployment to Google Cloud
-
-### Challenges 
-
-We faced challenges for mapping the cities along with their langitude and longitude coordinates but it was fixed 
-
-### Future Work
-
-Implementation of the payment system and more upgrades for the user registering to provide the services.
